@@ -4,7 +4,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 import { User } from 'src/users/User.model';
 import { AuthsController } from './Auths.controller';
 import { AuthsService } from './Auths.service';
-import { LoginLocalStrategy } from './Loginlocal.strategy';
+import { LoginLocalStrategy } from './Loginlocal.strategy.ts';
 import { RegisterLocalStrategy } from './RegisterLocal.strategy';
 
 @Module({
